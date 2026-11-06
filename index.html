@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Pearl Antwi is a backend developer and Computer Networking student at Koforidua Technical University, Ghana.">
+<title>Pearl Antwi | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+
+<header class="header" id="header">
+  <a href="#home" class="logo"><span class="logo-badge">PA</span> Pearl <b>Antwi</b></a>
+  <nav class="nav" id="nav">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="#contact" class="btn btn-solid header-cta">Let's Talk</a>
+  <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <video class="hero-video" autoplay muted loop playsinline><source src="background.mp4" type="video/mp4"></video>
+  <div class="hero-overlay"></div>
+  <div class="container hero-grid">
+    <div class="avatar reveal">
+      <img src="profile.jpeg" alt="Portrait of Pearl Antwi">
+      <i class="dot dot-a"></i><i class="dot dot-b"></i>
+    </div>
+    <div class="hero-text reveal">
+      <span class="pill">Backend Developer</span>
+      <h1>Hi, I’m <span class="accent">Pearl Antwi</span><br>Welcome to my <span class="accent">Portfolio</span></h1>
+      <h2 class="typed-line"><span id="typed"></span><span class="caret"></span></h2>
+      <p>I’m Pearl Antwi, a backend developer and student at Koforidua Technical University. I’m learning JavaScript, Node.js, APIs and MongoDB, and putting my knowledge into practice through projects like KTU Campus Connect. I’m passionate about learning new technologies, solving problems and growing into a skilled software developer.</p>
+      <ul class="contact-card">
+        <li><span class="ic">✉</span><div><small>Email</small>pearlantwi90@gmail.com</div></li>
+        <li><span class="ic">⌥</span><div><small>GitHub</small>pearlantwi90-jpg</div></li>
+        <li><span class="ic">⌖</span><div><small>Location</small>Ghana</div></li>
+        <li><span class="ic">in</span><div><small>LinkedIn</small>pearl-antwi-326529448</div></li>
+      </ul>
+      <div class="btn-row">
+        <a href="#projects" class="btn btn-solid">View My Projects</a>
+        <a href="Pearl_Antwi_Resume.pdf" class="btn btn-outline" download>Download Resume</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="container">
+    <div class="head reveal"><span class="pill">About Me</span><h2>Learning in public, <span class="accent">building for real</span></h2></div>
+    <div class="about-grid">
+      <div class="about-img reveal"><img src="workspace.jpeg" alt="Developer desk with monitor, laptop and ring light" loading="lazy"></div>
+      <div class="about-text reveal">
+        <h3>Backend developer and networking student</h3>
+        <p>I’m a Computer Network Management student at Koforidua Technical University with practical IT attachment experience at the National Investment Bank. Alongside my studies in networks, troubleshooting and cybersecurity, I build backend skills in JavaScript, Node.js, REST APIs, MongoDB and Git/GitHub.</p>
+        <p>I enjoy research, solving real-world problems and turning ideas into working software. I’m looking for an internship or entry-level role where I can contribute to a team and grow.</p>
+        <div class="facts">
+          <div><small>Education</small>Computer Network Management, KTU (2026 – Present)</div>
+          <div><small>Location</small>Koforidua, Ghana</div>
+          <div><small>Languages</small>English, Ghanaian Language</div>
+          <div><small>Open to</small>Internship / entry-level roles</div>
+        </div>
+        <a href="#skills" class="btn btn-solid">See My Skills</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="skills">
+  <div class="container">
+    <div class="head reveal"><span class="pill">My Skills</span><h2>My Technical <span class="accent">Skills</span></h2><p>Technologies and tools I work with. I’m always learning and improving.</p></div>
+    <div class="skills-grid">
+      <div class="skill card reveal"><div class="skill-top"><span class="badge js">JS</span><b>JavaScript</b><em>80%</em></div><div class="bar"><i data-w="80"></i></div></div>
+      <div class="skill card reveal"><div class="skill-top"><span class="badge">N</span><b>Node.js</b><em>70%</em></div><div class="bar"><i data-w="70"></i></div></div>
+      <div class="skill card reveal"><div class="skill-top"><span class="badge">API</span><b>APIs</b><em>65%</em></div><div class="bar"><i data-w="65"></i></div></div>
+      <div class="skill card reveal"><div class="skill-top"><span class="badge">DB</span><b>MongoDB</b><em>60%</em></div><div class="bar"><i data-w="60"></i></div></div>
+      <div class="skill card reveal"><div class="skill-top"><span class="badge">Git</span><b>Git &amp; GitHub</b><em>80%</em></div><div class="bar"><i data-w="80"></i></div></div>
+      <div class="skill card reveal"><div class="skill-top"><span class="badge">Net</span><b>IT Support &amp; Networks</b><em>90%</em></div><div class="bar"><i data-w="90"></i></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+    <div class="head reveal"><span class="pill">My Services</span><h2>What I <span class="accent">Offer</span></h2><p>Reliable, efficient backend solutions to help bring your ideas to life.</p></div>
+    <div class="services-grid">
+      <article class="card service reveal"><span class="ic big">&lt;/&gt;</span><h3>Backend Development</h3><p>Building scalable and secure applications using modern technologies.</p></article>
+      <article class="card service reveal"><span class="ic big">⚙</span><h3>API Development</h3><p>Creating and integrating RESTful APIs for smooth communication between systems.</p></article>
+      <article class="card service reveal"><span class="ic big">☰</span><h3>Database Design</h3><p>Designing and managing databases for better data organization, performance and security.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="projects">
+  <div class="container">
+    <div class="head reveal"><span class="pill">My Projects</span><h2>Featured <span class="accent">Project</span></h2><p>A project I’ve worked on. I’m proud of the progress I’ve made and excited to build more.</p></div>
+    <div class="project card reveal">
+      <div class="project-img"><img src="workspace.jpeg" alt="Workspace where KTU Campus Connect was built" loading="lazy"></div>
+      <div class="project-body">
+        <h3>KTU Campus Connect</h3>
+        <p>A web-based campus management system designed to help students and staff access academic information, hostel details, fees and more. It makes campus life simpler and more connected.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span><span>MongoDB</span></div>
+        <div class="btn-row">
+          <a href="https://github.com/pearlantwi90-jpg" class="btn btn-solid" target="_blank" rel="noopener">View Project</a>
+          <a href="https://github.com/pearlantwi90-jpg" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="experience">
+  <div class="container">
+    <div class="head reveal"><span class="pill">Experience</span><h2>Education &amp; <span class="accent">Experience</span></h2></div>
+    <div class="timeline">
+      <div class="t-item reveal"><small>01/2026 – Present</small><h3>Computer Network Management</h3><span>Koforidua Technical University (KTU)</span><p>Studying computer networks, network administration, IT support and cybersecurity while building programming, backend and database skills.</p></div>
+      <div class="t-item reveal"><small>Industrial attachment</small><h3>IT Attachment, National Investment Bank (NIB)</h3><span>Ghana</span><p>Gained workplace experience and exposure to IT operations.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="feedback">
+  <div class="container">
+    <div class="head reveal"><span class="pill">What People Say</span><h2>Client / Peer <span class="accent">Feedback</span></h2></div>
+    <div class="slider reveal" id="slider">
+      <blockquote class="slide active"><p>“Pearl is hardworking and always eager to learn. She puts in effort and is willing to help others. Keep going!”</p><footer><b>KTU Student</b><span>Classmate</span><em>★★★★★</em></footer></blockquote>
+      <div class="dots" id="dots"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container">
+    <div class="head reveal"><span class="pill">Get In Touch</span><h2>Let’s <span class="accent">Connect</span></h2><p>Have a project in mind or just want to say hello? I’d love to hear from you.</p></div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="info-row"><span class="ic">✉</span><div><small>Email</small>pearlantwi90@gmail.com</div></div>
+        <div class="info-row"><span class="ic">⌥</span><div><small>GitHub</small><a href="https://github.com/pearlantwi90-jpg" target="_blank" rel="noopener">pearlantwi90-jpg</a></div></div>
+        <div class="info-row"><span class="ic">in</span><div><small>LinkedIn</small><a href="https://linkedin.com/in/pearl-antwi-326529448" target="_blank" rel="noopener">pearl-antwi-326529448</a></div></div>
+        <div class="info-row"><span class="ic">⌖</span><div><small>Location</small>Ghana</div></div>
+      </div>
+      <form class="form reveal" id="contactForm">
+        <label>Name<input type="text" id="name" required autocomplete="name"></label>
+        <label>Email<input type="email" id="email" required autocomplete="email"></label>
+        <label>Message<textarea id="message" rows="5" required></textarea></label>
+        <button class="btn btn-solid" type="submit">Send Message</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container foot-grid">
+    <div><a href="#home" class="logo"><span class="logo-badge">PA</span> Pearl <b>Antwi</b></a><p class="muted">Build • Learn • Grow</p></div>
+    <p class="muted">© 2026 Pearl Antwi. All rights reserved.</p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
